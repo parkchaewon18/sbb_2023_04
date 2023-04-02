@@ -19,6 +19,7 @@ public class Answer {
 
     private LocalDateTime createDate;
 
-    private Integer questionId;
+    @ManyToOne
+    private Question question;
 
 }
